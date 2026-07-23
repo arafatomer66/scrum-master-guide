@@ -1,50 +1,68 @@
 # Which Certification Should I Get?
 
-*A decision guide across every Scrum Master certification this repo covers — Scrum.org, Scrum Alliance, and SAFe — based on your budget, your employer, and what you're actually trying to prove.*
+*A decision guide across all 19 certifications this repo covers — Scrum.org, Scrum Alliance, and SAFe — based on your role, your employer, and what you're actually trying to prove.*
 
-There is no single "best" Scrum Master certification. There are eight credentials covered in this guide, issued by three different bodies with genuinely different philosophies about what a certification is for, and the right one depends far more on your situation than on which body has the most name recognition in the abstract. This page exists so you don't have to piece that together from marketing pages written by each body to sell you their own credential.
+There is no single "best" Scrum certification, and there almost certainly isn't one certification that's right for you — there's one *track*. Scrum.org alone issues fourteen distinct credentials across nine different roles and specialties; Scrum Alliance and Scaled Agile each add their own Scrum Master ladder on top of that. This page exists so you don't have to piece together which track fits you from marketing pages written by each body to sell you their own credential.
 
-## The core philosophical split
+## Step one: pick your role, not your brand
 
-Before comparing individual credentials, understand the one structural difference that explains most of the rest: **Scrum.org sells assessments; Scrum Alliance and Scaled Agile sell training with a certification attached.**
+Before anything else — budget, employer, exam difficulty — figure out which of these you actually are or are becoming. Every certification below exists to prove competence in one specific accountability, not "Scrum" in the abstract.
 
-- **Scrum.org** ([PSM I](scrum-org/psm-i.md), [PSM II](scrum-org/psm-ii.md), [PSM III](scrum-org/psm-iii.md)) requires no course. You study on your own — the Scrum Guide, this repo, the free Scrum Open Assessments — and sit an open-book exam whenever you're ready, on Scrum.org's own platform. Nobody reviews your application. Nobody requires you to sit in a room (physical or virtual) for two days first. You prove knowledge directly, and the credential never expires or requires renewal fees. This rewards self-directed learners and is dramatically cheaper if you're paying out of pocket.
-- **Scrum Alliance** ([CSM](scrum-alliance/csm.md), [A-CSM](scrum-alliance/a-csm.md), [CSP-SM](scrum-alliance/csp-sm.md)) requires a mandatory paid course taught by a Certified Scrum Trainer before you're even eligible to sit the (comparatively easier) exam. The credential itself expires and requires periodic renewal through SEUs (Scrum Education Units) and a renewal fee. You're paying primarily for the live training experience and the Scrum Alliance brand's market recognition — the exam is a formality by comparison to Scrum.org's.
-- **Scaled Agile** ([SAFe Scrum Master](safe/safe-scrum-master.md), [SAFe Advanced Scrum Master](safe/safe-advanced-scrum-master.md)) follows the same mandatory-course model as Scrum Alliance, but the content is specifically about running the Scrum Master role inside a SAFe-scaled organization (PI Planning, ARTs, Scrum of Scrums), not general Scrum. This credential's value is almost entirely contextual — it matters enormously if your employer runs SAFe and barely at all if they don't.
+| Your situation | Your track |
+|---|---|
+| Facilitating Scrum events, coaching the team, removing impediments | **Scrum Master** — [PSM I/II/III](scrum-org/psm-i.md), [CSM/A-CSM/CSP-SM](scrum-alliance/csm.md), or [SAFe SM/ASM](safe/safe-scrum-master.md) |
+| Owning the Product Backlog, maximizing product value, working with stakeholders | **Product Owner** — [PSPO I](scrum-org/pspo-i.md) → [PSPO II](scrum-org/pspo-ii.md) → [PSPO III](scrum-org/pspo-iii.md) |
+| Writing the code the team ships every Sprint | **Developer** — [PSD](scrum-org/psd.md) |
+| Already an SM/coach, want to prove a specific specialty skill | **Specialist** — [PSK](scrum-org/psk.md) (flow/Kanban), [PSU](scrum-org/psu.md) (UX integration), [PSFS](scrum-org/psfs.md) (facilitation), [SPS](scrum-org/sps.md) (scaling with Nexus) |
+| A manager, executive, or org-level leader supporting agility from above the team | **Leadership** — [PAL-E](scrum-org/pal-e.md) → [PAL-EBM](scrum-org/pal-ebm.md) |
+| Years of experience, want to become a licensed Scrum.org instructor | **Trainer** — [PST](scrum-org/pst.md) (read it — it's not an exam you study for) |
 
-Neither philosophy is objectively "more rigorous" in every sense — Scrum.org's exams are genuinely harder to pass on a pure knowledge basis (PSM I's ~85% passing bar is unusually strict), while Scrum Alliance's and SAFe's value is weighted toward the guided learning experience and, frankly, market recognition in organizations that specifically look for those logos. Knowing which one your target employer actually cares about matters more than which one is "better" in a vacuum.
+If you're not sure which role you're actually in yet, read [The Scrum Team](../02-scrum-framework/scrum-team.md) — it lays out what each accountability is actually responsible for, which usually settles the question fast.
+
+The rest of this page goes deep on the **Scrum Master track** specifically, since that's the most-contested three-body decision in the whole catalog (Scrum.org vs. Scrum Alliance vs. SAFe). If you landed on Product Owner, Developer, a specialist credential, or Leadership above, the decision is simpler — read that credential's own page (linked in the table above); each one's "Who It's For" and "Study Plan" sections tell you what you need directly, since there's only one body offering that specific role-credential in this guide.
+
+## The core philosophical split (Scrum Master track)
+
+Before comparing individual Scrum Master credentials, understand the one structural difference that explains most of the rest: **Scrum.org sells assessments; Scrum Alliance and Scaled Agile sell training with a certification attached.** This same split holds true across Scrum.org's entire catalog, not just PSM — PSPO, PSD (partially), PSK, PSU, PSFS, SPS, and PAL-E/PAL-EBM are all self-study, open-book exams with no mandatory course.
+
+- **Scrum.org** ([PSM I](scrum-org/psm-i.md), [PSM II](scrum-org/psm-ii.md), [PSM III](scrum-org/psm-iii.md)) requires no course. You study on your own — the Scrum Guide, this repo, the free Scrum Open Assessments — and sit an open-book exam whenever you're ready, on Scrum.org's own platform. Nobody reviews your application. You prove knowledge directly, and the credential never expires or requires renewal fees. This rewards self-directed learners and is dramatically cheaper if you're paying out of pocket.
+- **Scrum Alliance** ([CSM](scrum-alliance/csm.md), [A-CSM](scrum-alliance/a-csm.md), [CSP-SM](scrum-alliance/csp-sm.md)) requires a mandatory paid course taught by a Certified Scrum Trainer before you're even eligible to sit the (comparatively easier) exam. The credential itself expires and requires periodic renewal through SEUs (Scrum Education Units) and a renewal fee. You're paying primarily for the live training experience and the Scrum Alliance brand's market recognition.
+- **Scaled Agile** ([SAFe Scrum Master](safe/safe-scrum-master.md), [SAFe Advanced Scrum Master](safe/safe-advanced-scrum-master.md)) follows the same mandatory-course model, but the content is specifically about running the Scrum Master role inside a SAFe-scaled organization. This credential's value is almost entirely contextual — it matters enormously if your employer runs SAFe and barely at all if they don't.
+
+Neither philosophy is objectively "more rigorous" in every sense — Scrum.org's exams are genuinely harder to pass on a pure knowledge basis, while Scrum Alliance's and SAFe's value is weighted toward the guided learning experience and market recognition. Knowing which one your target employer actually cares about matters more than which one is "better" in a vacuum.
 
 ## What employers in different contexts actually ask for
 
-- **Startups and product companies not using a formal scaling framework** overwhelmingly recognize PSM I and CSM interchangeably as "the person knows Scrum" signal, and often don't distinguish sharply between them in a job posting. If you're self-funding your own certification with no employer backing, PSM I is the cheaper, faster, equally-recognized choice in this context.
-- **Enterprises already running SAFe** — common in large, historically-non-software organizations (banks, insurers, government contractors, large regulated industries) that adopted SAFe specifically because it maps onto existing PMO and portfolio structures — will often list a SAFe credential as a stated or de facto requirement for a Scrum Master role, sometimes above generic Scrum certifications entirely. In this context, [SAFe Scrum Master](safe/safe-scrum-master.md) is close to non-negotiable, and the general Scrum.org/Scrum Alliance credentials, while still useful, won't substitute for it in the eyes of a SAFe-committed hiring manager.
-- **Consultancies and agile-coaching-adjacent roles** tend to value the advanced tiers — [PSM II](scrum-org/psm-ii.md)/[PSM III](scrum-org/psm-iii.md), [A-CSM](scrum-alliance/a-csm.md)/[CSP-SM](scrum-alliance/csp-sm.md) — as evidence of depth beyond entry-level knowledge, since these roles are explicitly selling judgment, not just Scrum literacy.
-- **Traditional enterprises with an established L&D budget and a "send people to training" culture**, even outside SAFe shops, often default to CSM specifically because it's the credential their HR system and training vendors already know how to procure, not because they've evaluated it against PSM I on merit. If your employer is paying and has a preferred vendor relationship, that logistical reality can matter more than the philosophical comparison above.
-- **Nobody outside a SAFe-committed organization is likely to specifically ask for a SAFe certification**, and nobody inside one is likely to accept a generic Scrum credential as a full substitute for it. This is the sharpest either/or split among all eight credentials.
+- **Startups and product companies not using a formal scaling framework** overwhelmingly recognize PSM I and CSM interchangeably as "the person knows Scrum" signal. If you're self-funding, PSM I is the cheaper, faster, equally-recognized choice.
+- **Enterprises already running SAFe** will often list a SAFe credential as a stated or de facto requirement for a Scrum Master role. In this context, [SAFe Scrum Master](safe/safe-scrum-master.md) is close to non-negotiable.
+- **Consultancies and agile-coaching-adjacent roles** tend to value the advanced tiers — [PSM II](scrum-org/psm-ii.md)/[PSM III](scrum-org/psm-iii.md), [A-CSM](scrum-alliance/a-csm.md)/[CSP-SM](scrum-alliance/csp-sm.md) — as evidence of depth beyond entry-level knowledge.
+- **Traditional enterprises with an established L&D budget** often default to CSM specifically because it's the credential their HR system already knows how to procure.
+- **Product-focused roles** should look at the Product Owner track directly rather than trying to map an SM-track decision onto it — [PSPO I](scrum-org/pspo-i.md) is the equivalent entry point, with no Scrum Alliance/SAFe Product Owner equivalent covered in this guide.
+- **Developers wanting a technical credential** should go straight to [PSD](scrum-org/psd.md) — there's no "which body" decision here, only whether you're ready to commit to its mandatory hands-on course.
 
 ## Cost tiers (relative, not exact)
 
-- **Cheapest:** PSM I — a single flat exam fee, no mandatory course, lowest tier of the Scrum.org ladder.
-- **Low-mid:** PSM II — similar model to PSM I, no course, priced higher per attempt but still exam-only.
-- **Mid:** CSM — mandatory course fee (typically the largest single line item) plus a comparatively minor exam and annual renewal cost thereafter. SAFe Scrum Master follows a similar mandatory-course-plus-exam structure.
+- **Cheapest:** PSM I, PSPO I, PSK, PSU, PSFS, SPS, PAL-E — all single flat-fee, no-mandatory-course exams at Scrum.org's entry tier.
+- **Low-mid:** PSM II, PSPO II, PAL-EBM — same no-course model, priced higher per attempt.
+- **Mid:** CSM — mandatory course fee (typically the largest single line item) plus a comparatively minor exam and annual renewal cost. SAFe Scrum Master follows a similar structure. PSD also lands here or higher, since its mandatory 3-day hands-on course is priced closer to a live-training credential than a pure exam.
 - **Mid-high:** A-CSM — requires holding CSM first, plus another mandatory advanced course.
-- **High:** PSM III — the most expensive Scrum.org tier, reflecting its human-evaluated written component. SAFe Advanced Scrum Master sits in a comparable band, gated behind course + exam.
-- **Highest / most cumulative:** CSP-SM — requires stacking CSM and A-CSM (or equivalent SEU accumulation) plus its own application and fee, making it the most expensive path to reach in total cost across the whole journey, even though no single step is necessarily the most expensive in isolation.
+- **High:** PSM III, PSPO III — the most expensive Scrum.org tiers, reflecting human-evaluated components. SAFe Advanced Scrum Master sits in a comparable band.
+- **Highest / most cumulative:** CSP-SM — requires stacking CSM and A-CSM plus its own application and fee.
+- **Not a purchase:** PST isn't priced like the others — it's an application-and-vetting process built on top of years of experience and multiple prior certifications. See [its page](scrum-org/pst.md) for why.
 
-**Verify current pricing directly on each issuing body's site before budgeting** — none of the numbers above are meant as current prices, only relative ordering, and every body has changed its pricing over time.
+**Verify current pricing directly on each issuing body's site before budgeting** — none of the numbers above are meant as current prices, only relative ordering.
 
-## Decision flow
+## Decision flow (Scrum Master track)
 
 Work through these in order — stop at the first one that matches your situation:
 
-1. **"My company already runs SAFe."** → [SAFe Scrum Master](safe/safe-scrum-master.md). This isn't really optional in a SAFe shop; it's closer to a job requirement than a nice-to-have. If you're already an experienced Scrum Master moving into a Release Train Engineer-adjacent or more senior SAFe role, look at [SAFe Advanced Scrum Master](safe/safe-advanced-scrum-master.md) next.
-2. **"My company is paying for training and specifically wants the most globally recognized entry-level cert, or defers to whatever their existing L&D vendor offers."** → [CSM](scrum-alliance/csm.md). It's the most widely recognized name among non-technical hiring managers and HR systems, even where PSM I is arguably the more rigorous exam.
-3. **"I have no budget, I'm paying for this myself, and I want to prove real knowledge fast."** → [PSM I](scrum-org/psm-i.md). Cheapest path to a credential that's respected industry-wide, no course required, no expiration, and you can sit it as soon as you're actually ready rather than waiting on a training schedule.
-4. **"I already have PSM I or CSM and want to prove deeper, scenario-level judgment, not just re-prove fundamentals."** → [PSM II](scrum-org/psm-ii.md) if you came from the Scrum.org track (or even if you didn't — Scrum.org doesn't require PSM I first, just the equivalent knowledge). If your organization or career path is Scrum Alliance-oriented specifically, [A-CSM](scrum-alliance/a-csm.md) is the parallel next step.
-5. **"I'm years into this as a career, want the deepest possible credential, and I'm not trying to prove anything to a specific employer's HR filter — I want the hardest, most respected proof of expert judgment."** → [PSM III](scrum-org/psm-iii.md), once you genuinely have the varied, multi-year experience it assumes (see that page's honesty about not cramming for it). If your path has been Scrum Alliance-oriented, [CSP-SM](scrum-alliance/csp-sm.md) is the equivalent capstone, built by accumulating SEUs and advanced credentials rather than a single hard exam.
-6. **"I'm a Scrum Master specifically inside a scaled, SAFe-run enterprise and want the senior-track credential."** → [SAFe Advanced Scrum Master](safe/safe-advanced-scrum-master.md), after holding the base SAFe Scrum Master credential and real experience running Scrum inside an Agile Release Train.
-7. **"I genuinely don't know yet whether I'll end up at a startup, an enterprise, or a SAFe shop."** → Start with [PSM I](scrum-org/psm-i.md) regardless. It's the cheapest, fastest, most portable proof of fundamental knowledge, it never expires, and nothing about holding it forecloses adding a CSM or SAFe credential later if your career path narrows toward one of those contexts. The reverse — starting with a narrow, context-specific credential before you know your context — is the more expensive mistake.
+1. **"My company already runs SAFe."** → [SAFe Scrum Master](safe/safe-scrum-master.md), then [SAFe Advanced Scrum Master](safe/safe-advanced-scrum-master.md) once experienced.
+2. **"My company is paying, and wants the most globally recognized entry-level cert."** → [CSM](scrum-alliance/csm.md).
+3. **"I have no budget, I'm self-funding, and I want to prove real knowledge fast."** → [PSM I](scrum-org/psm-i.md).
+4. **"I already have PSM I or CSM and want to prove scenario-level judgment."** → [PSM II](scrum-org/psm-ii.md) or [A-CSM](scrum-alliance/a-csm.md).
+5. **"I'm years in, want the deepest possible credential."** → [PSM III](scrum-org/psm-iii.md) or [CSP-SM](scrum-alliance/csp-sm.md).
+6. **"I don't know my context yet."** → Start with [PSM I](scrum-org/psm-i.md) regardless — cheapest, fastest, most portable, never expires.
 
 ## Where to go next
 
-Whichever path you land on, read [Professional Scrum Competencies](../03-professional-scrum-competencies/00-overview.md) first — it's the closest thing the industry has to a shared syllabus across all three certifying bodies, described in more detail there. Then work through [The Scrum Master Role](../04-scrum-master-role/) and [Real-Life Scenarios](../06-real-life-scenarios/), which prepare you for the applied, scenario-based questions that every certification above PSM I/CSM entry level actually tests, regardless of which body issues it. For a side-by-side structural comparison of all eight credentials, see the [comparison table](comparison-table.md).
+Whichever path you land on, read [Professional Scrum Competencies](../03-professional-scrum-competencies/00-overview.md) first — it's the closest thing the industry has to a shared syllabus across every track and every body. If you're on the Scrum Master path specifically, work through [The Scrum Master Role](../04-scrum-master-role/) and [Real-Life Scenarios](../06-real-life-scenarios/), which prepare you for the applied, scenario-based questions every certification above entry level actually tests. For a side-by-side structural comparison of all 19 credentials, see the [comparison table](comparison-table.md).

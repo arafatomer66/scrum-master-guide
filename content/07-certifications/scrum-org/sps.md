@@ -1,0 +1,43 @@
+# SPS — Scaled Professional Scrum
+
+*Scrum.org's specialty credential for scaling Scrum specifically with Nexus — cross-team dependency management, the Nexus Integration Team, cross-team refinement, and the Nexus Sprint Review — not scaling in general.*
+
+Scaled Professional Scrum is narrower than its name suggests, and that's a deliberate, important thing to understand before you register. SPS does not test scaling frameworks broadly — it doesn't cover SAFe's Program Increment structure, Scrum@Scale's Executive Action Team, or LeSS's descaling philosophy. It tests Nexus specifically: Scrum.org's own minimal scaling framework, built by Ken Schwaber to add exactly one new role, one new artifact, and a handful of extended events on top of standard Scrum, and nothing else. If you walk into SPS expecting a general survey of scaling approaches, you'll be caught off guard by how deep and specific the Nexus questions actually go.
+
+## Who It's For
+
+SPS is for Scrum Masters and Agile Coaches who are working — or about to work — across multiple Scrum Teams building a single product, and who want to prove they understand how to manage the specific failure mode multi-team Scrum runs into: cross-team dependencies going unmanaged during the Sprint and surfacing as integration failures at the worst possible moment, usually right after a Sprint Review has already promised stakeholders something that doesn't actually work end to end. It's also relevant for anyone likely to serve on a Nexus Integration Team, since that accountability draws directly on the material this exam tests.
+
+It assumes you already have solid single-team Scrum fluency — SPS builds Nexus's extensions on top of the base Scrum Guide and won't reteach the events, accountabilities, or artifacts you're expected to know from [PSM I](psm-i.md). If your organization is scaling with a framework other than Nexus, SPS isn't the credential that maps to your actual working context — see [Scaling Frameworks](../../05-scaling-frameworks/) for the fuller landscape and when each framework fits.
+
+## Format & Logistics
+
+SPS follows Scrum.org's standard specialist-exam format: open-book, timed, taken through Scrum.org's own platform with no proctor and no mandatory training course required beforehand. Multiple choice, multiple answer, and true/false questions, historically in the range of 25 to 30 questions and around 60 minutes, with a passing bar in the mid-to-high 80s percent, consistent with Scrum.org's other assessments. Pricing sits in a comparable tier to Scrum.org's other specialist credentials. **Verify the current question count, time limit, passing score, and price directly on scrum.org before registering** — these figures shift periodically and this guide's numbers are a planning ballpark, not a guaranteed current fact. Like every Scrum.org credential, SPS does not expire and carries no renewal fee once earned.
+
+## What It Actually Tests
+
+SPS tests whether you understand Nexus's structure precisely enough to apply it, not just recognize its vocabulary. Expect scenario questions built around:
+
+- **The core structure**: one Nexus made up of roughly 3 to 9 Scrum Teams sharing a single Product Backlog, a single Product Owner, and delivering one integrated Increment every Sprint — and recognizing when a described setup violates this (a separate "Nexus Product Backlog," multiple Product Owners for one Nexus, or teams delivering unintegrated increments independently) as a Nexus anti-pattern, not a valid variation.
+- **The Nexus Integration Team's actual composition and job.** A very common trap: assuming the NIT is a dedicated team of integration specialists sitting apart from the delivery teams. It isn't. It's typically made up of the Product Owner, a Scrum Master, and representative Developers pulled from across the component teams — accountable for ensuring a done, integrated Increment every Sprint, coaching the Nexus on integration practice, and sometimes doing hands-on integration work itself when needed.
+- **Cross-team refinement**, run before Sprint Planning specifically to surface which Product Backlog items carry cross-team dependencies, so those dependencies are visible during planning instead of discovered mid-Sprint.
+- **The extended events and what each one is actually for**: Nexus Sprint Planning (representatives coordinate first, then each team runs its own Sprint Planning informed by that), the Nexus Daily Scrum (a short, representative-based sync to surface integration issues — not a status meeting for the whole Nexus), the Nexus Sprint Review (one combined review of the integrated Increment, replacing fragmented per-team demos), and the Nexus Sprint Retrospective (cross-team issues surfaced first, then each team retrospects with that context).
+- **Recognizing genuine integration risk versus normal multi-team coordination noise** — SPS scenario questions often describe a plausible-sounding cross-team problem and ask what Nexus mechanism actually addresses it, which requires knowing which extended event or NIT responsibility maps to which kind of problem.
+
+## Study Plan
+
+1. **Work through [Nexus](../../05-scaling-frameworks/nexus.md) in this guide.** This is the core prep material for SPS here — it covers the full structure, the Nexus Integration Team's real composition and responsibilities, every extended event and its specific purpose, and a worked multi-team example showing how a cross-team dependency gets surfaced in refinement, tracked through planning and the Daily Scrum, and resolved before it becomes a Sprint Review surprise.
+2. **Read Scrum.org's own Nexus Guide directly**, not just secondary summaries — like PSM I, SPS is written against precise language in a short, freely available source document, and paraphrase-level familiarity misses the exact wording some questions hinge on.
+3. **Drill the "who does what" boundaries specifically**: single Product Owner for the whole Nexus, not one per team; the NIT is accountable for integration, not a replacement for each team's own Definition of Done; the Nexus Daily Scrum is a targeted representative sync, not a whole-Nexus status meeting.
+4. **Work through the worked example in the Nexus page yourself with a different scenario** — pick a hypothetical multi-team product, invent a plausible cross-team dependency, and walk it through refinement, planning, the Daily Scrum, and the Sprint Review the way Nexus prescribes. Constructing your own example surfaces gaps that just reading someone else's doesn't.
+5. **If your own Scrum fundamentals feel less than rock solid, close that gap before sitting SPS** — a pass through [section 02, The Scrum Framework](../../02-scrum-framework/) or [PSM I](psm-i.md) prep first, since Nexus questions assume base Scrum knowledge as settled and won't slow down to re-explain it.
+
+## Common Failure Points
+
+- **Assuming SPS tests scaling knowledge broadly.** It doesn't. Answers drawn from SAFe, Scrum@Scale, or LeSS concepts — even when they sound like reasonable scaling practice in general — are wrong if they don't match what Nexus specifically prescribes. SPS is a Nexus exam wearing a broader-sounding name.
+- **Believing the Nexus Integration Team is a separate team of dedicated integration engineers.** This is probably the single most common misconception. The NIT is typically the Product Owner, a Scrum Master, and representative Developers from the component teams — not a new standing team sitting apart from delivery.
+- **Missing that there's only one Product Backlog and one Product Owner across the whole Nexus.** A described scenario with "each team has its own backlog and PO, coordinated informally" is not Nexus, and recognizing that gap is one of the exam's more reliable trap patterns.
+- **Treating the Nexus Daily Scrum as a status meeting for the entire Nexus.** It's a short, targeted, representative-based sync focused specifically on integration issues — not a scaled-up version of a single team's Daily Scrum with everyone present.
+- **Underestimating how much SPS assumes prior Scrum fluency.** Because Nexus reuses the base Scrum Guide's structure almost entirely, SPS questions freely combine single-team Scrum knowledge with Nexus-specific extensions in the same scenario — a shaky grasp of ordinary Sprint mechanics costs points here just as easily as a shaky grasp of Nexus itself.
+
+For how SPS fits relative to Scrum.org's other specialty credentials, and against the wider scaling landscape this guide covers, see [Scaling Frameworks](../../05-scaling-frameworks/), [which certification should I get](../00-which-certification-should-i-get.md), and the [comparison table](../comparison-table.md).

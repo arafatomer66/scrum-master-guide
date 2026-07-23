@@ -269,6 +269,50 @@ const MANIFEST = [
     "title": "PSM Practice Questions"
   },
   {
+    "path": "07-certifications/scrum-org/pspo-i.md",
+    "title": "PSPO I — Professional Scrum Product Owner I"
+  },
+  {
+    "path": "07-certifications/scrum-org/pspo-ii.md",
+    "title": "PSPO II — Professional Scrum Product Owner II"
+  },
+  {
+    "path": "07-certifications/scrum-org/pspo-iii.md",
+    "title": "PSPO III — Professional Scrum Product Owner III"
+  },
+  {
+    "path": "07-certifications/scrum-org/psd.md",
+    "title": "PSD — Professional Scrum Developer"
+  },
+  {
+    "path": "07-certifications/scrum-org/psk.md",
+    "title": "PSK — Professional Scrum with Kanban"
+  },
+  {
+    "path": "07-certifications/scrum-org/psu.md",
+    "title": "PSU — Professional Scrum with User Experience"
+  },
+  {
+    "path": "07-certifications/scrum-org/psfs.md",
+    "title": "PSFS — Professional Scrum Facilitation Skills"
+  },
+  {
+    "path": "07-certifications/scrum-org/sps.md",
+    "title": "SPS — Scaled Professional Scrum"
+  },
+  {
+    "path": "07-certifications/scrum-org/pal-e.md",
+    "title": "PAL-E — Professional Agile Leadership - Essentials"
+  },
+  {
+    "path": "07-certifications/scrum-org/pal-ebm.md",
+    "title": "PAL-EBM — Professional Agile Leadership - Evidence-Based Management"
+  },
+  {
+    "path": "07-certifications/scrum-org/pst.md",
+    "title": "PST — Professional Scrum Trainer"
+  },
+  {
     "path": "07-certifications/scrum-alliance/csm.md",
     "title": "Certified ScrumMaster (CSM)"
   },
