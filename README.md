@@ -1,10 +1,10 @@
-# Scrum Master: Zero to Master
+# Scrum: Zero to Master
 
-A complete, free curriculum for developers becoming Scrum Masters — the framework itself, the competencies that separate a Scrum Master from someone who just runs meetings, twenty real-life scenarios worked end to end, and full study guides for every major certification.
+A complete, free curriculum covering every Scrum and Agile certification — open to anyone, not just Scrum Masters. The framework itself, the Scrum Master role in real depth (twenty real-life scenarios worked end to end), and full study guides for every certification Scrum.org, Scrum Alliance, and SAFe publish.
 
-**Read it here on GitHub, or browse it as a live site:** [arafatomer66.github.io/scrum-master-guide](https://arafatomer66.github.io/scrum-master-guide)
+**Read it here on GitHub, or browse it as a live site:** [arafatomer66.github.io/scrum-zero-to-master](https://arafatomer66.github.io/scrum-zero-to-master)
 
-No sign-up, no paywall, no lead-gen form. If you're a developer who just got asked to "be the Scrum Master for a bit" and doesn't know where to start, or you're studying for PSM I next month, this is built for both.
+No sign-up, no paywall, no lead-gen form. If you're a developer who just got asked to "be the Scrum Master for a bit," a PM moving into Product Ownership, or you're studying for PSM I / PSPO I / CSM next month — this is built for all of it.
 
 ## Why this exists
 

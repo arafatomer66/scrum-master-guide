@@ -34,6 +34,12 @@ ORDER = {
         "why-and-when-to-scale", "nexus", "scrum-at-scale", "less", "safe-overview",
     ],
     "07-certifications": ["00-which-certification-should-i-get", "comparison-table"],
+    "07-certifications/scrum-org": [
+        "psm-i", "psm-ii", "psm-iii", "psm-practice-questions",
+        "pspo-i", "pspo-ii", "pspo-iii",
+        "psd", "psk", "psu", "psfs",
+        "sps", "pal-e", "pal-ebm", "pst",
+    ],
     "07-certifications/scrum-alliance": ["csm", "a-csm", "csp-sm"],
     "07-certifications/safe": ["safe-scrum-master", "safe-advanced-scrum-master"],
     "08-templates-and-toolkit": [

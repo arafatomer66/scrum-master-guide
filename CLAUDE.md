@@ -1,6 +1,8 @@
-# CLAUDE.md — Scrum Master Guide
+# CLAUDE.md — Scrum: Zero to Master
 
-A public, comprehensive "zero to master" curriculum for developers becoming Scrum Masters — covers the Scrum framework itself, Scrum.org's Professional Scrum Competencies model, the day-to-day realities of the role via real-life scenarios, and full study guides for every major Scrum Master certification (Scrum.org, Scrum Alliance, SAFe).
+A public, comprehensive "zero to master" curriculum covering all of Scrum and Agile certification — open to anyone, not just Scrum Masters. Covers the Scrum framework itself, Scrum.org's Professional Scrum Competencies model, the day-to-day realities of the Scrum Master role via real-life scenarios, and full study guides for **every certification Scrum.org publishes** (scrum.org/professional-scrum-certifications) plus the Scrum Master tracks from Scrum Alliance and SAFe.
+
+Originally built and launched as "Scrum Master: Zero to Master" (repo `scrum-master-guide`) covering only the Scrum Master role; renamed to `scrum-zero-to-master` when scope expanded to every Scrum.org certification track (Product Owner, Developer, Kanban, UX, Facilitation, Scaled, Agile Leadership, Trainer). The Scrum Master section (`04-scrum-master-role/`, `06-real-life-scenarios/`) remains the deepest, most fully-realized part of the repo — the other role tracks get a real, substantive certification study guide each, but not a parallel 10-file "role in practice" curriculum the way the Scrum Master role has. That's a deliberate scope boundary, not an oversight — see the note in `07-certifications/00-which-certification-should-i-get.md`.
 
 Two things ship from one source of content: the raw markdown (readable directly on GitHub) and a live GitHub Pages site (`index.html` at repo root) that renders the same files with a sidebar, search, and dark theme. **The markdown in `content/` is the single source of truth — the site reads it at runtime, nothing is duplicated by hand.**
 
@@ -14,11 +16,12 @@ content/
   03-professional-scrum-competencies/     mapped 1:1 to Scrum.org's 6 competency areas
   04-scrum-master-role/                   the job in practice: facilitation, coaching, metrics, anti-patterns
   05-scaling-frameworks/                  Nexus, Scrum@Scale, LeSS, SAFe — when and why to scale
-  06-real-life-scenarios/                 20 situation → approach → outcome → exam-angle case studies
+  06-real-life-scenarios/                 20 situation → approach → outcome → exam-angle case studies (Scrum Master-focused)
   07-certifications/
-    scrum-org/                            PSM I, II, III + practice questions
-    scrum-alliance/                       CSM, A-CSM, CSP-SM
-    safe/                                 SAFe SM, Advanced SM
+    scrum-org/                            every Scrum.org cert: PSM I/II/III, PSPO I/II/III, PSD,
+                                           PSK, PSU, PSFS, SPS, PAL-E, PAL-EBM, PST + PSM practice Qs
+    scrum-alliance/                       CSM, A-CSM, CSP-SM (Scrum Master track only)
+    safe/                                 SAFe SM, Advanced SM (Scrum Master track only)
   08-templates-and-toolkit/               ready-to-use ceremony agendas, retro formats, checklists
   09-interview-prep/                      Scrum Master job-interview question bank
 index.html, css/, js/                     the GitHub Pages site (zero-build, vanilla JS)

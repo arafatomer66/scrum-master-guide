@@ -158,8 +158,8 @@
   /* ---------- landing page ---------- */
   function renderLanding(){
     var html = '<div class="landing-hero"><p class="eyebrow">Zero to Master</p>' +
-      '<h1 style="font-size:32px;letter-spacing:-.02em;margin:0 0 10px;">Scrum Master: Zero to Master</h1>' +
-      '<p style="color:var(--ink-muted);font-size:15.5px;line-height:1.65;max-width:62ch;">A complete, free curriculum for developers becoming Scrum Masters — the framework itself, the competencies that separate a Scrum Master from someone who just runs meetings, twenty real-life scenarios worked end to end, and full study guides for every major certification.</p></div>';
+      '<h1 style="font-size:32px;letter-spacing:-.02em;margin:0 0 10px;">Scrum: Zero to Master</h1>' +
+      '<p style="color:var(--ink-muted);font-size:15.5px;line-height:1.65;max-width:62ch;">A complete, free curriculum covering every Scrum and Agile certification — open to anyone, not just Scrum Masters. The framework itself, twenty real-life Scrum Master scenarios worked end to end, and full study guides for Scrum Master, Product Owner, Developer, and every other Scrum.org, Scrum Alliance, and SAFe track.</p></div>';
     html += '<div class="landing-grid">';
     tree.forEach(function(group){
       var num = (group.key.match(/^\d+/) || ['·'])[0];
@@ -175,7 +175,7 @@
     contentEl.innerHTML = html;
     tocEl.innerHTML = '';
     renderSidebar(null);
-    document.title = 'Scrum Master: Zero to Master';
+    document.title = 'Scrum: Zero to Master';
   }
 
   /* ---------- route a content page ---------- */
@@ -194,7 +194,7 @@
           '<div class="crumb"><a href="#/">Guide</a> / ' + crumbLabel + '</div>' +
           '<div class="md">' + body + '</div>' +
           renderPageNav(path);
-        document.title = (item ? item.title : humanize(path)) + ' — Scrum Master Guide';
+        document.title = (item ? item.title : humanize(path)) + ' — Scrum: Zero to Master';
         renderToc();
         rewriteRelativeLinks(path);
       })
