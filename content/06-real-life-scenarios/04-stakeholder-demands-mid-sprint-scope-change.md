@@ -1,0 +1,37 @@
+# A Stakeholder Demands a Mid-Sprint Scope Change
+
+*A VP walks up on day 4 of a nine-day Sprint with an "urgent" item and a thinly veiled threat to escalate if the team says no.*
+
+## The Situation
+
+Team Marlin, at a B2B payments company, is three days into a two-week Sprint with a clear goal: "Merchants can void a transaction within 24 hours without contacting support." Day 4, the VP of Sales, Whitfield, walks straight to the team's area — not to the Product Owner, Jun — and says a top enterprise prospect is threatening to walk unless a CSV bulk-export feature is added to the platform "this week," because it came up in a renewal call that morning. "I need this in by Friday. I'll take it to your director if I have to."
+
+Jun is in a budget meeting. Two developers, uncertain, start looking at what a bulk-export feature would take. The Scrum Master, Deshawn, walks by, catches the tail end of "yeah, I could probably hack something together by Friday," and steps in.
+
+## Why This Happens
+
+Mid-Sprint scope demands from senior stakeholders are common and predictable, not rare edge cases, because several forces converge reliably:
+
+- **Sales and account-management incentives run on individual deal timelines, not Sprint boundaries.** Whitfield's world is "this renewal closes or doesn't this week" — he has no structural reason to know or care what Sprint boundary he's crossing, and nothing in his job has ever taught him that a mid-Sprint change has a cost beyond "the engineers do it."
+- **Seniority creates an implicit authority gradient that bypasses the Product Owner.** Developers, especially under direct pressure from someone several levels above them, will often quietly comply rather than redirect — not because they don't know the process, but because saying "that's not how this works" to a VP feels personally risky in a way that saying yes doesn't.
+- **The threat to escalate is often genuine but rarely well-informed** — Whitfield likely doesn't know that inserting this item means either descoping something else the business already committed to, or breaking the Sprint's forecast reliability, because nobody has ever made that trade-off visible to him in the moment it matters.
+- **If the Product Owner is unavailable exactly when this happens, the decision vacuum gets filled by whoever's most senior in the room** — which is precisely how urgent-sounding requests bypass the person actually accountable for backlog trade-offs.
+
+## The Scrum Master's Approach
+
+1. **Interrupt the informal agreement before it hardens, without being confrontational.** Deshawn steps in calmly: "Whitfield, I hear this is urgent — let's make sure it gets handled right rather than fast-and-wrong. Jun owns what goes into this Sprint; let's loop her in the moment she's free, in the next hour." This isn't stalling — it's redirecting the request to the person with actual authority over the trade-off, immediately, not eventually.
+2. **Do not let the Developers self-authorize scope under stakeholder pressure**, even with good intentions. Deshawn tells the two developers, out of Whitfield's earshot: "Don't start it yet — this needs to go through Jun so the trade-off is explicit, not because your idea is wrong, but because deciding what drops to make room isn't your call to make solo under pressure." This is squarely a [shielding vs. enabling](../04-scrum-master-role/shielding-vs-enabling.md) call — shielding the team from an ungoverned scope change, not from the stakeholder's legitimate business concern.
+3. **Get Jun and Whitfield in a room together fast, and make the trade-off concrete, not abstract.** Within the hour, Deshawn frames the conversation for Jun: "Here's the ask, here's what's currently in flight toward this Sprint's goal, here's what would have to come out or slip if this goes in today." This is the actual service a Scrum Master provides here — not saying yes or no, but making sure the person who says yes or no is doing it with the real cost in front of them. See [working with difficult stakeholders](../04-scrum-master-role/working-with-difficult-stakeholders.md).
+4. **Protect the Sprint Goal specifically, not just the ticket list.** If the bulk-export item can be absorbed without threatening "merchants can void a transaction within 24 hours," that's a legitimate scope negotiation Jun can make unilaterally with the team's input. If it threatens the goal itself, the Scrum Guide is explicit that the Sprint Goal doesn't change — that's the one thing genuinely off the table mid-Sprint, and Deshawn says so plainly rather than letting it get negotiated away by momentum.
+5. **Give Whitfield a real answer with a real timeline, not a stonewall.** Jun, with Deshawn's help walking through the board, tells Whitfield: "This can't safely go into the current Sprint without breaking a commitment we've already made to three other merchants. It can be the top item in the *next* Sprint, starting Monday, and I'll personally walk the prospect's team through the timeline if that helps close the renewal." A clear alternative with a date is far harder to escalate against than a flat no.
+6. **If Whitfield escalates anyway, don't relitigate it defensively — let the trade-off speak for itself.** Deshawn makes sure the director hearing the escalation gets the same concrete picture: what's in flight, what the Sprint Goal is, what would break. Escalations that reach a decision-maker with clear information rarely reverse a well-reasoned call; escalations that reach a decision-maker with only "the team said no" often do, unfairly. The difference is preparation, not luck.
+
+## Likely Outcome
+
+Whitfield is unhappy in the moment but doesn't escalate past Jun once he sees the concrete list of what voiding-transaction work would slip. The bulk-export item becomes the top-priority item for the following Sprint, and Jun proactively updates the prospect's account team with a specific delivery date, which turns out to matter more to the renewal than the exact week it lands. One developer later tells Deshawn privately that he was relieved someone stepped in — he didn't feel he had standing to push back on a VP himself, which is exactly the gap a Scrum Master exists to close.
+
+## Certification Exam Angle
+
+A frequent PSM I/II pattern: *"During a Sprint, a senior stakeholder approaches the Development Team directly and insists on adding new, urgent work, threatening to escalate. What is the Scrum Master's best action?"* The trap answer is often "help the team quickly complete the request to avoid the escalation" — tempting because it looks responsive and avoids conflict, but it bypasses the Product Owner entirely and treats the Sprint Backlog as negotiable by whoever applies the most pressure, which corrodes the whole team's forecasting reliability going forward.
+
+A second trap answer: "tell the stakeholder no changes are allowed during a Sprint, full stop" — this is closer to correct in spirit but misapplies the rule; Scrum doesn't forbid renegotiating scope mid-Sprint, it forbids *endangering the Sprint Goal*, and a flat refusal without engaging the Product Owner in the trade-off is also a bypass, just in the opposite direction. The correct-mindset answer routes the request to the Product Owner immediately, makes the trade-off transparent (what would have to change and why), and protects the Sprint Goal as the one non-negotiable — demonstrating that the Scrum Master's role is to enforce the *process* for handling the demand, not to personally decide yes or no.

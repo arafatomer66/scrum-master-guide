@@ -1,0 +1,29 @@
+# Certified Scrum Professional - ScrumMaster (CSP-SM)
+
+*Scrum Alliance's most senior Scrum Master credential — a career-stage marker earned through years of accumulated practice and community involvement, not an exam you sit and pass.*
+
+## Who It's For
+
+CSP-SM is aimed at practitioners several years into the role — commonly people who've held an active [A-CSM](a-csm.md) for a while and have been operating as a Scrum Master, Agile Coach, or internal trainer long enough to have real, documentable impact to show for it. It's the natural target for someone aiming at a senior Scrum Master or Enterprise/Agile Coach title, or building an independent training and coaching practice under the Scrum Alliance brand. It is not a credential to chase early — Scrum Alliance's own progression (CSM → A-CSM → CSP-SM) exists precisely to prevent someone from jumping the line, and the requirements described below make that difficult to fake even if you wanted to.
+
+## Format & Logistics
+
+The prerequisite is an active [A-CSM](a-csm.md). Beyond that, CSP-SM has no single fixed-length course and no proctored exam — it's earned by accumulating a substantial number of Scrum Education Units (SEUs) across required categories (training, coaching, community involvement such as user groups and conferences, and volunteering) combined with a minimum stretch of verified real-world Scrum Master experience, historically discussed in the range of several years and a large SEU count in the neighborhood of 70. Treat those specific figures as approximate — Scrum Alliance has adjusted CSP path requirements before and will likely again, so confirm the current SEU thresholds, experience minimums, and application process directly on Scrum Alliance's site before you plan around any number, including these.
+
+Because the credential is accumulated across many paid and unpaid activities over an extended period rather than earned from one course fee, there's no single "cost" figure the way there is for CSM or A-CSM — the real cost is the sum of whatever training, conference attendance, and coaching engagements you use to accumulate the required SEUs, spread out over the months or years it takes to qualify. Once earned, CSP-SM renews on a cycle similar to Scrum Alliance's other credentials — continuing SEUs plus a renewal fee — again best confirmed at renewal time.
+
+## What It Actually Tests
+
+Nothing, in the sense of a scored assessment. What it verifies is sustained, evidenced practice: documented coaching and training contributions, breadth of community involvement, and continued professional development well beyond what your day job alone would produce. The application itself is a review process — Scrum Alliance evaluates the evidence you submit against its requirements — rather than a test you sit down and take. This is by design: CSP-SM is meant to function less like a knowledge checkpoint and more like a senior title within the Scrum Alliance ecosystem, comparable to how "Staff Engineer" or "Principal" functions in an engineering career ladder — earned through a track record, not demonstrated in a single sitting.
+
+## Study Plan
+
+There's no exam to cram for, so "study plan" is the wrong frame entirely — the right frame is career plan. This credential should be read alongside the later stages of this guide's [Scrum Master Career Path](../../00-start-here/scrum-master-career-path.md), because CSP-SM is essentially Scrum Alliance's formal recognition that you've arrived at the senior-practitioner or coach stage of that path — it documents a transition that has already happened in your actual work, rather than causing that transition to happen.
+
+Practically, that means starting the moment you finish A-CSM: keep a running log of every SEU-eligible activity as you do it — a workshop you deliver, a conference talk you give, a local Scrum user group you help organize, a junior Scrum Master you mentor — rather than trying to reconstruct two or three years of activity from memory when you finally sit down to apply. Deliberately spread your continuing education across the required categories instead of over-indexing on one (attending training is easy to rack up passively; coaching and community involvement usually require more intentional effort, and both are typically required). Treat the years between A-CSM and a CSP-SM application as a runway you're actively building evidence during, not a waiting period.
+
+## Common Failure Points
+
+The most common mistake is bringing an exam mindset to a credential that doesn't have one — looking for "the test to pass" and getting stuck when there isn't one, or discovering the SEU and experience requirements only once you're ready to apply and realizing you're a year of accumulated activity short. Because nothing forces documentation along the way, the second common failure is administrative: losing track of what SEU-eligible work you actually did, then spending weeks trying to reconstruct receipts, certificates, and evidence for activities from eighteen months ago instead of having tracked them as they happened.
+
+The subtler and more consequential failure is pursuing CSP-SM as a resume line disconnected from an actual shift in how you're operating. Because the credential explicitly signals "senior coach-level practitioner," showing up to an interview holding it without being able to speak concretely about the coaching engagements, organizational-level impediment work, or mentoring that theoretically produced it creates a credibility gap that experienced interviewers on the other side of the table are specifically trained to probe for — they'll ask what you actually did, not what you're certified to have done. The credential is only worth pursuing once the underlying career shift toward senior coaching work is real; treat it as documentation of that shift, not a shortcut to it.

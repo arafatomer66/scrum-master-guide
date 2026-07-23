@@ -1,0 +1,37 @@
+# Daily Scrum Becomes a Status Report to the Manager
+
+*A manager who isn't on the Scrum Team started sitting in on Daily Scrum three weeks ago. Now the whole team faces him, not each other.*
+
+## The Situation
+
+Team Ember, five developers building internal tooling for a logistics company, has run a tight 15-minute Daily Scrum at 9:30 every morning for a year. Three weeks ago, the engineering director, Callum, started joining "just to stay close to the work" after a rough quarterly review with his own boss.
+
+By week two, the Scrum Master, Ingrid, notices the shape of the meeting has completely inverted. Developers used to talk to each other — "I finished the export job, Marcus, want me to look at your rate-limiting issue with you after this?" Now they stand roughly in a semicircle facing Callum and say things like "Yesterday I completed ticket ENG-4471. Today I'm starting ENG-4483. No blockers" — and then look at him, not at each other, waiting for the next name to be called. One developer, Aisha, has started preparing a mental bullet list beforehand, the way she would for a 1:1 with her manager. Nobody is coordinating anything. Nobody has mentioned the rate-limiting issue in eight days, even though it's still not fixed.
+
+## Why This Happens
+
+Daily Scrum's entire mechanism depends on who the Developers believe the audience is. When a manager with authority over individuals' careers is in the room, three things happen automatically, whether or not the manager intends it:
+
+- **The event silently converts from a peer-coordination huddle into a performance review.** Humans reflexively address the person with evaluative power over them. Even a manager who says nothing and just listens changes what gets said, because Developers start filtering updates through "how does this sound to my boss's boss" instead of "what does my teammate need to know to unblock me today."
+- **Psychological safety drops, and problems stop surfacing.** The rate-limiting issue Marcus is stuck on doesn't get raised because "no blockers" is the safe, professional-sounding answer in front of a director, whereas admitting to a peer you're stuck for over a week costs nothing.
+- **The event's actual purpose — inspecting progress toward the Sprint Goal and adapting the plan for the next 24 hours — gets replaced by its surface ritual (three questions, said out loud, in order).** The words survive; the function dies.
+- **The manager usually doesn't know any of this is happening.** Callum thinks he's staying informed efficiently. He has no idea the meeting he's sitting in on is structurally different from the one that ran a month ago, because he's never seen the "before" version to compare it to.
+
+## The Scrum Master's Approach
+
+1. **Name what's changed to the team first, privately, to confirm it's not just Ingrid's read.** She asks a couple of developers one-on-one: "Daily Scrum feels different since Callum started joining — has it changed for you?" Confirming the team feels it too, not just her, before acting on it.
+2. **Talk to Callum directly, framing it around what he wants, not what he's doing wrong.** Ingrid sets up a short conversation: "You joined to stay close to the work — that makes sense given your quarter. But I want to flag what's actually happening: the team is now performing for you instead of coordinating with each other, and a real blocker went unmentioned for over a week because of it. That's the opposite of what you need if you want visibility into real risk." This reframes the ask from "please stop coming" (which can read as gatekeeping) to "here's what your presence is costing the thing you actually want."
+3. **Offer Callum a better way to get what he actually needs.** Ingrid proposes he get a two-line async summary after Daily Scrum instead — progress against the Sprint Goal, any risks — or that he attend the Sprint Review, which is the event explicitly designed for stakeholders to inspect the increment and give input. See [Daily Scrum](../02-scrum-framework/daily-scrum.md) for why the event's audience matters as much as its format.
+4. **If he still wants to observe, coach the team on redirecting to each other regardless of who's in the room** — the fix shouldn't be permanently contingent on Callum's attendance. Ingrid runs one Daily Scrum where she physically stands next to Marcus and Aisha rather than near Callum, and gently redirects the first "report" back to the team: "Marcus, that's for the team — has anyone got time to pair on it today?" Modeling the redirect a few times resets the reflex faster than announcing a rule.
+5. **This is a shielding call, and it's worth naming as one.** Ingrid isn't blocking Callum out of the team's work — she's making sure his presence doesn't quietly change what the event is for. See [shielding vs. enabling](../04-scrum-master-role/shielding-vs-enabling.md): shielding here means protecting the *event's function*, not protecting the team from a manager who has a legitimate interest in the work.
+6. **Bring it to the retro if the pattern doesn't shift within a Sprint.** If Callum keeps attending and the semicircle re-forms, Ingrid raises it explicitly in the [Sprint Retrospective](../02-scrum-framework/sprint-retrospective.md) as a team process issue, not a Callum issue, and lets the team decide together how they want to handle observers going forward — including, if they choose, setting a team working agreement that Daily Scrum is closed to non-Developers by default, which is well within the team's authority over its own events.
+
+## Likely Outcome
+
+Callum, once it's framed around the blocker that went unraised, is receptive — he didn't realize the cost and agrees to a written async summary instead, dropping in only occasionally around release weeks. The team takes about a week to fully unlearn the semicircle-facing-one-person posture; Ingrid's modeling helps, but the real tell that it's fixed is when Marcus mentions being stuck on something in front of Callum during one of his occasional visits and nobody flinches. The rate-limiting issue, once actually raised, turns out to need a fifteen-minute pairing session that Aisha had time for all along.
+
+## Certification Exam Angle
+
+A typical situational question: *"A manager not on the Scrum Team begins attending Daily Scrum regularly, and Developers start directing their updates to the manager instead of each other. What should the Scrum Master do?"* The tempting-but-wrong answer is often "politely ask the manager to stop attending" issued as a directive — this can be the eventual outcome, but jumping straight to exclusion without addressing the underlying dynamic (and without the team's own voice in it) is heavy-handed and skips past coaching, which is the Scrum Master's primary tool.
+
+Another trap answer: "instruct the Developers to ignore the manager and only speak to each other" — this treats a psychological-safety problem as a compliance instruction, which rarely works, since the discomfort driving the behavior doesn't go away just because someone was told to ignore it. The correct-mindset answer addresses both sides: coach the manager on the actual cost of their presence and offer them a better channel for what they need, while also reinforcing with the team that Daily Scrum belongs to the Developers and helping them practice redirecting it back to its real purpose — protecting the event's function is a core Scrum Master accountability, not overstepping.

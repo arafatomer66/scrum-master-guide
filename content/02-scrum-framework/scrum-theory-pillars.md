@@ -1,0 +1,33 @@
+# Scrum Theory: The Three Pillars
+
+*Scrum is an implementation of empirical process control — Transparency, Inspection, and Adaptation are the mechanism that lets a team learn from real work instead of a plan.*
+
+Scrum is founded on two ideas: empiricism and lean thinking. Empiricism says that knowledge comes from experience and that decisions should be based on what is actually observed, not on what was predicted or hoped for. Lean thinking says you reduce waste and focus on what's essential. Put together, this is why Scrum is built as an iterative, incremental approach — you don't try to plan a complex, uncertain piece of work perfectly up front, you plan a small slice, build it, look honestly at what happened, and adjust. The deeper theory behind why this beats upfront planning for complex work lives in [Empiricism and Lean Thinking](../01-agile-foundations/empiricism-and-lean-thinking.md); this page is about the three pillars that make empirical process control actually work in practice.
+
+Every implementation of empirical process control rests on three pillars: Transparency, Inspection, and Adaptation. They're sequential and dependent — you can't inspect what isn't transparent, and inspection without adaptation is a wasted exercise. Understanding what each one looks like when it's real, versus when it's faked, is one of the most practically useful things a Scrum Master can carry into a team.
+
+## Transparency
+
+Transparency means the significant aspects of the process are visible to everyone responsible for the outcome, and that there's a shared, common understanding of what's being observed — not just visibility, but visibility with a common standard behind it. Two people looking at the same board need to mean the same thing when they say "done."
+
+**What makes a Sprint Backlog transparent:** a card only sits in "In Progress" while someone is actually, currently working on it — not "started three days ago and forgotten." A card only moves to "Done" when it meets the team's actual [Definition of Done](definition-of-done.md), not when the author feels finished with it. Anyone outside the team — a stakeholder, another Scrum Team, a new hire — can look at the [Sprint Backlog](sprint-backlog.md) and get an accurate picture of where the Sprint actually stands, without needing to ask someone to translate it for them.
+
+**What makes it opaque:** an item parked at "90% done" for the entire back half of the Sprint. Work happening off the board — a Developer quietly doing something not reflected anywhere. A burndown chart the team privately doesn't trust and works around rather than reads. "Done" meaning something different depending on who wrote the card. None of these are lies, usually — they're just erosion. Transparency fails gradually, one small omission at a time, which is exactly why it needs active maintenance rather than a one-time setup.
+
+## Inspection
+
+Inspection means the Scrum artifacts and progress toward the agreed goals must be examined frequently and diligently enough to catch undesirable variance early — but not so constantly that the inspection itself becomes overhead that gets in the way of the work. Scrum's five events exist specifically to create this cadence: they are, structurally, scheduled inspection points.
+
+**What a bad inspection looks like:** a [Daily Scrum](daily-scrum.md) where Developers report individual status to the Scrum Master one at a time, instead of the whole team actually looking at the Sprint Backlog together and figuring out whether they're still on track for the Sprint Goal. A [Sprint Review](sprint-review.md) that's a rehearsed, one-directional demo where stakeholders watch a slide deck and nobody asks a real question. A [Sprint Retrospective](sprint-retrospective.md) where the team lists surface-level complaints ("meetings ran long") without anyone asking why, three Sprints running, the same complaint keeps coming back. In every one of these cases, something is technically happening on the calendar — but nobody is actually looking closely enough to see the thing that matters.
+
+## Adaptation
+
+Adaptation means that when inspection reveals something is outside acceptable limits — the product being built is heading somewhere unacceptable, or the process itself isn't working — the process or the work must be adjusted as soon as possible to limit further deviation. This is the pillar most teams quietly fail at, because inspection is comparatively easy (you just have to look) while adaptation requires someone to actually change a plan, which usually means admitting the current plan was wrong.
+
+**What adaptation failure looks like:** a Sprint Review surfaces clear stakeholder feedback that a feature direction is off, and the Product Owner nods, thanks everyone, and doesn't touch the [Product Backlog](product-backlog.md) ordering afterward. A Retrospective identifies the same recurring blocker for the third Sprint in a row, and the team's process — or its [Definition of Done](definition-of-done.md) — never actually changes as a result. A Daily Scrum reveals the Sprint Goal is genuinely at risk, and the plan for the rest of the day doesn't change at all. In each case, inspection did its job — the team *saw* the problem — and the loop still broke, because nothing downstream of seeing it moved.
+
+## Why this is the whole point of Scrum's structure
+
+Every event, every artifact, and every accountability in the framework exists to serve one or more of these three pillars. The [Sprint](sprint.md) creates a fixed cadence for inspection. [Sprint Planning](sprint-planning.md) sets the target that later inspection is measured against. The [Increment](increment.md) and its [Definition of Done](definition-of-done.md) are what make transparency possible in the first place — without a shared, objective standard for "done," there's nothing honest to inspect. And the pillars only function if the team is actually living the [Scrum Values](scrum-values.md): Openness and Courage make transparency real instead of decorative, and Respect and Courage make adaptation possible instead of just observed-and-ignored.
+
+This is also the dividing line between a team that's "doing Scrum" and a team that has empirical process control actually working for them. A team can run every ceremony on schedule, fill in every board field, and still not be inspecting or adapting anything real — that's Scrum as theater. A [Scrum Master](scrum-team.md) whose job is to make the pillars work, not just make the events happen, is the difference — and that distinction is most of what [the Scrum Master role](../04-scrum-master-role/servant-leadership.md) actually is in practice.
